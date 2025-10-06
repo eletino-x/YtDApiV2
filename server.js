@@ -27,7 +27,7 @@ app.get("/download", async (req, res) => {
     ytdl(url, format).pipe(res);
   } catch (err) {
     console.error(err);
-    res.status(500).send("⚠️ Fehler beim Download");
+    res.status(500).send("⚠️ Fehler beim Download" + err);
   }
 });
 
