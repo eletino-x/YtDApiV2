@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube Downloader</title>
 </head>
-<body style="font-family:sans-serif;text-align:center;margin-top:50px;">
+<body style="font-family:Arial;text-align:center;margin-top:50px;">
   <h1>🎬 YouTube Downloader</h1>
   <form action="/download" method="get">
     <input 
       type="text" 
       name="url" 
-      placeholder="YouTube-URL eingeben..." 
-      style="width:60%;padding:10px;"
+      placeholder="YouTube-URL eingeben..."
+      style="width:60%;padding:10px;font-size:16px;"
       required
     />
-    <button type="submit" style="padding:10px 20px;">Download</button>
+    <button 
+      type="submit" 
+      style="padding:10px 20px;font-size:16px;cursor:pointer;">
+      Download
+    </button>
   </form>
 </body>
 </html>
